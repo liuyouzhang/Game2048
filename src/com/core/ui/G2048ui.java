@@ -104,7 +104,7 @@ public class G2048ui implements KeyListener{
 		
 		g2048Menu_help_1_des.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent Event){
-				JOptionPane.showMessageDialog(null, "2048 JAVA版","2048",JOptionPane.YES_NO_OPTION);
+				JOptionPane.showMessageDialog(null, "2048 JAVA版\n请使用上下左右方向键开始游戏","2048",JOptionPane.YES_NO_OPTION);
 			}
 		});
 		
